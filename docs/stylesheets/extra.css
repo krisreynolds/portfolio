@@ -1,31 +1,31 @@
-.md-nav__link button,
-.md-nav__link .md-tooltip {
-  display: none !important;
-}
-
-.md-nav__link {
-  position: relative;
-}
-
-.md-nav__link::after {
-  margin-left: auto;
-  font-size: 0.9rem;
-}
+/* =========================================
+   Override status icons properly
+   ========================================= */
 
 /* ✅ COMPLETE */
-.md-status-complete + * .md-nav__link::after,
-.md-nav__item[data-status="complete"] .md-nav__link::after {
-  content: "✅";
+.md-status--complete {
+  --md-status: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2310b981' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>\
+<path d='M20 6L9 17l-5-5'/>\
+</svg>");
 }
 
 /* ⚠️ INCOMPLETE */
-.md-status-incomplete + * .md-nav__link::after,
-.md-nav__item[data-status="incomplete"] .md-nav__link::after {
-  content: "⚠️";
+.md-status--incomplete {
+  --md-status: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f59e0b' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>\
+<circle cx='12' cy='12' r='10'/>\
+<line x1='12' y1='8' x2='12' y2='12'/>\
+<line x1='12' y1='16' x2='12.01' y2='16'/>\
+</svg>");
 }
 
 /* ⏳ NOT STARTED */
-.md-status-notstarted + * .md-nav__link::after,
-.md-nav__item[data-status="notstarted"] .md-nav__link::after {
-  content: "⏳";
+.md-status--notstarted {
+  --md-status: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>\
+<circle cx='12' cy='12' r='10'/>\
+<polyline points='12 6 12 12 16 14'/>\
+</svg>");
 }
+``
