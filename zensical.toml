@@ -10,13 +10,18 @@ extra_javascript = ["js/external-links.js"]
 extra_css = ["stylesheets/extra.css"]
 nav = [
   { "Home" = "index.md" },
-  { ":lucide-building2: Business and Change Management" = [
+  { "Business and Change Management" = [
       "ksb1-1.md",
       "ksb1-2.md",
       "ksb1-3.md",
       "ksb1-4.md",
       "ksb1-5.md",
       "ksb1-6.md"
+  ]}
+  { "Professional Competencies" = [
+      "ksb2-1.md",
+      "ksb2-2.md",
+      "ksb2-3.md"
   ]}
 ]
 
