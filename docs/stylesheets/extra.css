@@ -1,46 +1,40 @@
 /* =========================================
-   Base: ensure the element behaves properly
+   Base: keep original icon but hide it visually
    ========================================= */
 .md-status {
-  display: inline-block;
-  width: 1.2em;
-  height: 1.2em;
-  margin-left: 0.4rem;
-  vertical-align: middle;
-
-  /* Kill built-in icon rendering */
-  background: none !important;
-  mask: none !important;
-  -webkit-mask: none !important;
+  position: relative;
+  margin-left: 0.5rem;
 }
 
-/* Hide any inline SVG inside */
-.md-status svg {
-  display: none !important;
+/* Hide the existing icon without breaking layout */
+.md-status svg,
+.md-status::before {
+  opacity: 0;
 }
 
 /* =========================================
-   Inject icons using ::before (SAFE LAYER)
+   Add our own icon on top
    ========================================= */
-.md-status::before {
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  font-size: 1em;
-  line-height: 1;
+.md-status::after {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  opacity: 1;
 }
 
 /* ✅ COMPLETE */
-.md-status.md-status-complete::before {
+.md-status.md-status-complete::after {
   content: "✅";
 }
 
 /* ⚠️ INCOMPLETE */
-.md-status.md-status-incomplete::before {
+.md-status.md-status-incomplete::after {
   content: "⚠️";
 }
 
 /* ⏳ NOT STARTED */
-.md-status.md-status-notstarted::before {
+.md-status.md-status-notstarted::after {
   content: "⏳";
 }
