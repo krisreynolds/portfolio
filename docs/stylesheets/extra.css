@@ -1,31 +1,15 @@
-/* =========================================
-   Override icon font rendering
-   ========================================= */
+/* 1. Hide built-in SVG icon */
+.md-status svg {
+  display: none !important;
+}
 
-/* Force element to use normal text rendering */
-.md-status {
-  font-family: inherit !important;
+/* 2. Add your own icon */
+.md-status::after {
+  margin-left: 0.4rem;
   font-size: 0.9rem;
-  line-height: 1;
-  margin-left: 0.5rem;
-
-  /* kill icon font behaviour */
-  letter-spacing: normal !important;
 }
-
-/* Clear any ligature text Zensical injects */
-.md-status::before {
-  content: "" !important;
-}
-
-/* =========================================
-   Inject emoji icons as REAL text
-   ========================================= */
 
 /* ✅ COMPLETE */
-.md-status.md-status-complete {
-  color: inherit;
-}
 .md-status.md-status-complete::after {
   content: "✅";
 }
