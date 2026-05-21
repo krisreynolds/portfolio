@@ -1,30 +1,31 @@
 /* =========================================
-   Base: keep original icon but hide it visually
+   Override icon font rendering
    ========================================= */
+
+/* Force element to use normal text rendering */
 .md-status {
-  position: relative;
+  font-family: inherit !important;
+  font-size: 0.9rem;
+  line-height: 1;
   margin-left: 0.5rem;
+
+  /* kill icon font behaviour */
+  letter-spacing: normal !important;
 }
 
-/* Hide the existing icon without breaking layout */
-.md-status svg,
+/* Clear any ligature text Zensical injects */
 .md-status::before {
-  opacity: 0;
+  content: "" !important;
 }
 
 /* =========================================
-   Add our own icon on top
+   Inject emoji icons as REAL text
    ========================================= */
-.md-status::after {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  font-size: 0.9rem;
-  opacity: 1;
-}
 
 /* ✅ COMPLETE */
+.md-status.md-status-complete {
+  color: inherit;
+}
 .md-status.md-status-complete::after {
   content: "✅";
 }
