@@ -1,4 +1,6 @@
 ---
-title: Business & Change Management
+title: Home
 icon: lucide/repeat
 ---
+
+# Kris Reynolds: MSc Portfolio
