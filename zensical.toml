@@ -31,7 +31,7 @@ toggle.name = "Switch to system preference"
 
 nav = [
   {"Home" = "index.md"},
-  {"Business & Change" = [
+  {"Business and Change" = [
      "1_BusinessAndChange/ksb1-1.md",
      "1_BusinessAndChange/ksb1-2.md",
      "1_BusinessAndChange/ksb1-3.md",
