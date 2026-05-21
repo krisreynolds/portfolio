@@ -1,9 +1,9 @@
 ---
-title: KSB 1.1 (S)
+title: KSB 1.1 (S) :lucide-book-x:
 icon: lucide/puzzle
 ---
 
-# :lucide-puzzle: KSB 1.1 (S) :lucide-book-x:
+# :lucide-puzzle: KSB 1.1 (S)
 
 !!! abstract "Requirement"
 
