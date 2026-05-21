@@ -5,7 +5,7 @@
 /* ✅ COMPLETE */
 .md-status--complete {
   --md-status: url("data:image/svg+xml;utf8,\
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2310b981' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2300d120' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>\
 <path d='M20 6L9 17l-5-5'/>\
 </svg>");
 }
@@ -13,7 +13,7 @@
 /* ⚠️ INCOMPLETE */
 .md-status--incomplete {
   --md-status: url("data:image/svg+xml;utf8,\
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f59e0b' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ff9700' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>\
 <circle cx='12' cy='12' r='10'/>\
 <line x1='12' y1='8' x2='12' y2='12'/>\
 <line x1='12' y1='16' x2='12.01' y2='16'/>\
@@ -23,7 +23,7 @@
 /* ⏳ NOT STARTED */
 .md-status--notstarted {
   --md-status: url("data:image/svg+xml;utf8,\
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ff0000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>\
 <circle cx='12' cy='12' r='10'/>\
 <polyline points='12 6 12 12 16 14'/>\
 </svg>");
