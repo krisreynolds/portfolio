@@ -1,14 +1,14 @@
 ---
-title: KSB 2.2 (S)
-icon: lucide/puzzle
+title: KSB 3.7 (B)
+icon: lucide/users
 status: notstarted
 ---
 
-# :lucide-puzzle: KSB 2.2 (S)
+# :lucide-users: KSB 3.7 (B)
 
 !!! abstract "Requirement"
 
-    Develop and deliver management level presentations which resonate with senior stakeholders, both business and technical.
+    Develop and support others in developing an appropriate balance of leadership and technical skills.
 
 ## Evidence Details
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut pretium lorem, ut porta neque. Phasellus accumsan aliquet massa non laoreet. Mauris scelerisque sapien eget quam eleifend luctus. Duis a sodales nisi, a convallis nunc. Mauris ut odio in metus lacinia tincidunt. Cras lacinia diam vel dolor laoreet semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut rutrum risus sit amet arcu placerat varius. Sed volutpat dui ex, sit amet sagittis nisl imperdiet eget. Quisque vitae dapibus diam, et fermentum turpis. Nam tempor scelerisque nisi, ac volutpat arcu elementum non.

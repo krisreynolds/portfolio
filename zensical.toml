@@ -22,6 +22,26 @@ nav = [
       "ksb2-1.md",
       "ksb2-2.md",
       "ksb2-3.md"
+  ]},
+  { "Leadership" = [
+      "ksb3-1.md",
+      "ksb3-2.md",
+      "ksb3-3.md",
+      "ksb3-4.md",
+      "ksb3-5.md",
+      "ksb3-6.md",
+      "ksb3-7.md",
+      "ksb3-8.md",
+      "ksb3-9.md",
+      "ksb3-10.md",
+      "ksb3-11.md"
+  ]},
+  { "Technology Management" = [
+      "ksb4-1.md",
+      "ksb4-2.md",
+      "ksb4-3.md",
+      "ksb4-4.md",
+      "ksb4-5.md"
   ]}
 ]
 

@@ -8,7 +8,7 @@ status: notstarted
 
 !!! abstract "Requirement"
 
-     The role of learning and talent management in successful business operations.
+    The role of learning and talent management in successful business operations.
 
 ## Evidence Details
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut pretium lorem, ut porta neque. Phasellus accumsan aliquet massa non laoreet. Mauris scelerisque sapien eget quam eleifend luctus. Duis a sodales nisi, a convallis nunc. Mauris ut odio in metus lacinia tincidunt. Cras lacinia diam vel dolor laoreet semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut rutrum risus sit amet arcu placerat varius. Sed volutpat dui ex, sit amet sagittis nisl imperdiet eget. Quisque vitae dapibus diam, et fermentum turpis. Nam tempor scelerisque nisi, ac volutpat arcu elementum non.

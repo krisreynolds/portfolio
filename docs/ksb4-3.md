@@ -1,14 +1,14 @@
 ---
-title: KSB 2.2 (S)
+title: KSB 4.3 (S)
 icon: lucide/puzzle
 status: notstarted
 ---
 
-# :lucide-puzzle: KSB 2.2 (S)
+# :lucide-puzzle: KSB 4.3 (S)
 
 !!! abstract "Requirement"
 
-    Develop and deliver management level presentations which resonate with senior stakeholders, both business and technical.
+    Create and implement innovative technological strategies to support the development of new products, processes and services that align with the company’s business strategy, and develop and communicate compelling business proposals to support these.
 
 ## Evidence Details
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut pretium lorem, ut porta neque. Phasellus accumsan aliquet massa non laoreet. Mauris scelerisque sapien eget quam eleifend luctus. Duis a sodales nisi, a convallis nunc. Mauris ut odio in metus lacinia tincidunt. Cras lacinia diam vel dolor laoreet semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut rutrum risus sit amet arcu placerat varius. Sed volutpat dui ex, sit amet sagittis nisl imperdiet eget. Quisque vitae dapibus diam, et fermentum turpis. Nam tempor scelerisque nisi, ac volutpat arcu elementum non.
