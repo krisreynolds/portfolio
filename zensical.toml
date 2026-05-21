@@ -37,8 +37,8 @@ nav = [
 ]
 
 [project.extra.status]
-notstarted: "Not yet started"
-incomplete: "Incomplete"
+notstarted: "Not yet started",
+incomplete: "Incomplete",
 complete: "Complete"
 
 [project.markdown_extensions.admonition]
