@@ -1,38 +1,32 @@
 /* =========================================
-   Zensical Status Icon Override (FINAL)
+Nav Bar Status Icons
    ========================================= */
-
-/* 1. Reset any built-in icons completely */
-.md-status::before,
-.md-status::after {
-  content: none !important;
-}
-
-/* 2. Base styling for the status element */
 .md-status {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   margin-left: 0.5rem;
   font-size: 0.95rem;
   line-height: 1;
-  vertical-align: middle;
 }
 
-/* =========================================
-   3. STATUS-SPECIFIC ICONS
-   (High specificity + guaranteed override)
-   ========================================= */
+/* Ensure the pseudo element actually renders */
+.md-status::before {
+  display: inline-block;
+  margin-left: 0.25rem;
+  font-style: normal;
+}
 
 /* ✅ COMPLETE */
-.md-status.md-status-complete::after {
+.md-status.md-status-complete::before {
   content: "✅" !important;
 }
 
 /* ⚠️ INCOMPLETE */
-.md-status.md-status-incomplete::after {
+.md-status.md-status-incomplete::before {
   content: "⚠️" !important;
 }
 
 /* ⏳ NOT STARTED */
-.md-status.md-status-notstarted::after {
+.md-status.md-status-notstarted::before {
   content: "⏳" !important;
 }
