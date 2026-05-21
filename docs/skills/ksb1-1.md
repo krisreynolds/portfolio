@@ -1,7 +1,7 @@
 ---
 title: KSB 1.1 (S)
 icon: lucide/puzzle
-status: incomplete
+status: complete
 ---
 
 # :lucide-puzzle: KSB 1.1 (S)
