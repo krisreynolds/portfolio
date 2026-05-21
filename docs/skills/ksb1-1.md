@@ -1,6 +1,7 @@
 ---
-title: KSB 1.1 (S) :lucide-book-x:
-icon: lucide/puzzle
+title: KSB 1.1 (S)
+icon: lucide/book-x
+status: incomplete
 ---
 
 # :lucide-puzzle: KSB 1.1 (S)

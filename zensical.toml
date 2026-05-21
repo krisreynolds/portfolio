@@ -7,6 +7,7 @@ copyright = "&copy; 2026 Kris Reynolds"
 docs_dir = "docs"
 site_dir = "site"
 extra_javascript = ["js/external-links.js"]
+extra_css = ["stylesheets/extra.css"]
 
 # Palette toggle for automatic mode
 [[project.theme.palette]]
@@ -34,6 +35,11 @@ nav = [
      "skills/ksb1-1.md",
   ]}
 ]
+
+[project.extra.status]
+notstarted: "Not yet started"
+incomplete: "Incomplete"
+complete: "Complete"
 
 [project.markdown_extensions.admonition]
 [project.markdown_extensions.pymdownx.details]

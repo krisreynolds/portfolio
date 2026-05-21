@@ -1,0 +1,31 @@
+/* Base badge injected before page title */
+[data-status] h1::after {
+  margin-left: 0.75rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+/* NOT STARTED */
+[data-status="notstarted"] h1::after {
+  content: "⏳ Not yet started";
+  color: #6b7280;
+  background: rgba(107, 114, 128, 0.15);
+}
+
+/* INCOMPLETE */
+[data-status="incomplete"] h1::after {
+  content: "⚠️ Incomplete";
+  color: #f59e0b;
+  background: rgba(245, 158, 11, 0.15);
+}
+
+/* COMPLETE */
+[data-status="complete"] h1::after {
+  content: "✅ Complete";
+  color: #10b981;
+  background: rgba(16, 185, 129, 0.15);
+}
+
