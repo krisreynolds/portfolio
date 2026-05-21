@@ -3,7 +3,7 @@ title: KSB 1.1 (S)
 icon: lucide/puzzle
 ---
 
-# KSB 1.1 (S)
+# :lucide-puzzle: KSB 1.1 (S) :lucide-book-x:
 
 !!! abstract "Requirement"
 
