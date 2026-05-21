@@ -1,42 +1,34 @@
 /* =========================================
-   Zensical Status Icon Override
+   Reset default Zensical icon
    ========================================= */
-
-/* Base status element */
-.md-status {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin-left: 0.5rem;
-  vertical-align: middle;
-}
-
-/* Remove any default icon rendering */
 .md-status::before,
 .md-status::after {
   content: none !important;
 }
 
-/* =========================================
-   STATUS: COMPLETE
-   ========================================= */
-.md-status-complete {
-  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%2310b981' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 6L9 17l-5-5'/></svg>") no-repeat center;
-  background-size: contain;
+/* Base styling so the icon displays properly */
+.md-status {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1;
 }
 
 /* =========================================
-   STATUS: INCOMPLETE
+   STATUS ICONS (emoji)
    ========================================= */
-.md-status-incomplete {
-  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23f59e0b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'/><line x1='12' y1='8' x2='12' y2='12'/><line x1='12' y1='16' x2='12.01' y2='16'/></svg>") no-repeat center;
-  background-size: contain;
+
+/* ✅ COMPLETE */
+.md-status-complete::after {
+  content: "✅";
 }
 
-/* =========================================
-   STATUS: NOT STARTED
-   ========================================= */
-.md-status-notstarted {
-  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'/><polyline points='12 6 12 12 16 14'/></svg>") no-repeat center;
-  background-size: contain;
+/* ⚠️ INCOMPLETE */
+.md-status-incomplete::after {
+  content: "⚠️";
+}
+
+/* ⏳ NOT STARTED */
+.md-status-notstarted::after {
+  content: "⏳";
 }
