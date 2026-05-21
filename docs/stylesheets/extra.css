@@ -1,32 +1,44 @@
 /* =========================================
-Nav Bar Status Icons
+   HARD RESET of Zensical status icon
    ========================================= */
+
+/* Remove pseudo-elements */
+.md-status::before,
+.md-status::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* Remove any background/mask/icon from theme */
 .md-status {
-  display: inline-flex;
-  align-items: center;
+  background: none !important;
+  mask: none !important;
+  -webkit-mask: none !important;
+
+  width: auto;
+  height: auto;
+
+  display: inline-block;
   margin-left: 0.5rem;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   line-height: 1;
 }
 
-/* Ensure the pseudo element actually renders */
-.md-status::before {
-  display: inline-block;
-  margin-left: 0.25rem;
-  font-style: normal;
-}
+/* =========================================
+   Inject emoji icons (clean + reliable)
+   ========================================= */
 
 /* ✅ COMPLETE */
-.md-status.md-status-complete::before {
+.md-status.md-status-complete::after {
   content: "✅" !important;
 }
 
 /* ⚠️ INCOMPLETE */
-.md-status.md-status-incomplete::before {
+.md-status.md-status-incomplete::after {
   content: "⚠️" !important;
 }
 
 /* ⏳ NOT STARTED */
-.md-status.md-status-notstarted::before {
+.md-status.md-status-notstarted::after {
   content: "⏳" !important;
 }
