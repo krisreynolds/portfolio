@@ -8,6 +8,17 @@ docs_dir = "docs"
 site_dir = "site"
 extra_javascript = ["js/external-links.js"]
 extra_css = ["stylesheets/extra.css"]
+nav = [
+  { "Home" = "index.md" },
+  { "Business and Change" = [
+      "ksb1-1.md",
+      "ksb1-2.md",
+      "ksb1-3.md",
+      "ksb1-4.md",
+      "ksb1-5.md",
+      "ksb1-6.md"
+  ]}
+]
 
 # Palette toggle for automatic mode
 [[project.theme.palette]]
@@ -29,23 +40,11 @@ scheme = "slate"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to system preference"
 
+[project.theme]
 features = [
     "navigation.top",
     "navigation.footer"
 ]
-
-nav = [
-  { "Home" = "index.md" },
-  { "Business and Change" = [
-      "ksb1-1.md",
-      "ksb1-2.md",
-      "ksb1-3.md",
-      "ksb1-4.md",
-      "ksb1-5.md",
-      "ksb1-6.md"
-  ]}
-]
-
 
 [project.extra.status]
 notstarted = "Not yet started"
