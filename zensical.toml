@@ -30,16 +30,17 @@ toggle.icon = "lucide/moon"
 toggle.name = "Switch to system preference"
 
 nav = [
-  {"Home" = "index.md"},
-  {"Business and Change" = [
-     "1_BusinessAndChange/ksb1-1.md",
-     "1_BusinessAndChange/ksb1-2.md",
-     "1_BusinessAndChange/ksb1-3.md",
-     "1_BusinessAndChange/ksb1-4.md",
-     "1_BusinessAndChange/ksb1-5.md",
-     "1_BusinessAndChange/ksb1-6.md",
+  { "Home" = "index.md" },
+  { "Business and Change" = [
+      "1_BusinessAndChange/ksb1-1.md",
+      "1_BusinessAndChange/ksb1-2.md",
+      "1_BusinessAndChange/ksb1-3.md",
+      "1_BusinessAndChange/ksb1-4.md",
+      "1_BusinessAndChange/ksb1-5.md",
+      "1_BusinessAndChange/ksb1-6.md"
   ]}
 ]
+
 
 [project.extra.status]
 notstarted = "Not yet started"

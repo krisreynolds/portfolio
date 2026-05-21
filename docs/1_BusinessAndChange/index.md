@@ -1,6 +1,6 @@
 ---
 title: Home
 icon: lucide/repeat
+hide:
+  - navigation
 ---
-
-# Kris Reynolds: MSc Portfolio
