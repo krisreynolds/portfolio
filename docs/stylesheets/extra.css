@@ -1,24 +1,25 @@
 /* =========================================
-   STATUS ICONS (emoji)
+   Zensical Status Icon Override (FINAL)
    ========================================= */
 
-/* =========================================
-   Remove default icon completely
-   ========================================= */
+/* 1. Reset any built-in icons completely */
 .md-status::before,
 .md-status::after {
   content: none !important;
 }
 
-/* Base element styling */
+/* 2. Base styling for the status element */
 .md-status {
   display: inline-block;
   margin-left: 0.5rem;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+  line-height: 1;
+  vertical-align: middle;
 }
 
 /* =========================================
-   STATUS ICONS (correct selectors)
+   3. STATUS-SPECIFIC ICONS
+   (High specificity + guaranteed override)
    ========================================= */
 
 /* ✅ COMPLETE */
@@ -35,5 +36,3 @@
 .md-status.md-status-notstarted::after {
   content: "⏳" !important;
 }
-
-
