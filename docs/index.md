@@ -1,5 +1,6 @@
 ---
 title: Home
+icon: lucide/house
 ---
 
-# :lucide-house: Home
+# Kris Reynolds: MSc Portfolio
