@@ -1,31 +1,42 @@
-/* Base badge injected before page title */
-[data-status] h1::after {
-  margin-left: 0.75rem;
-  padding: 0.2rem 0.6rem;
-  border-radius: 0.4rem;
-  font-size: 0.75rem;
-  font-weight: 600;
+/* =========================================
+   Zensical Status Icon Override
+   ========================================= */
+
+/* Base status element */
+.md-status {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left: 0.5rem;
   vertical-align: middle;
 }
 
-/* NOT STARTED */
-[data-status="notstarted"] h1::after {
-  content: "⏳ Not yet started";
-  color: #6b7280;
-  background: rgba(107, 114, 128, 0.15);
+/* Remove any default icon rendering */
+.md-status::before,
+.md-status::after {
+  content: none !important;
 }
 
-/* INCOMPLETE */
-[data-status="incomplete"] h1::after {
-  content: "⚠️ Incomplete";
-  color: #f59e0b;
-  background: rgba(245, 158, 11, 0.15);
+/* =========================================
+   STATUS: COMPLETE
+   ========================================= */
+.md-status-complete {
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%2310b981' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 6L9 17l-5-5'/></svg>") no-repeat center;
+  background-size: contain;
 }
 
-/* COMPLETE */
-[data-status="complete"] h1::after {
-  content: "✅ Complete";
-  color: #10b981;
-  background: rgba(16, 185, 129, 0.15);
+/* =========================================
+   STATUS: INCOMPLETE
+   ========================================= */
+.md-status-incomplete {
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23f59e0b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'/><line x1='12' y1='8' x2='12' y2='12'/><line x1='12' y1='16' x2='12.01' y2='16'/></svg>") no-repeat center;
+  background-size: contain;
 }
 
+/* =========================================
+   STATUS: NOT STARTED
+   ========================================= */
+.md-status-notstarted {
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'/><polyline points='12 6 12 12 16 14'/></svg>") no-repeat center;
+  background-size: contain;
+}
