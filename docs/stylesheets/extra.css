@@ -18,17 +18,19 @@
    STATUS ICONS (emoji)
    ========================================= */
 
-/* ✅ COMPLETE */
-.md-status-complete::after {
-  content: "✅";
+.md-nav .md-status::before,.md-nav .md-incomplete::after {
+  content: "⚠️" !important;
 }
 
-/* ⚠️ INCOMPLETE */
-.md-status-incomplete::after {
-  content: "⚠️";
+.md-nav .md-status-notstarted::after {
+  content: "⏳" !important;
 }
 
-/* ⏳ NOT STARTED */
-.md-status-notstarted::after {
-  content: "⏳";
+.md-nav .md-status::after {
+  content: none !important;
 }
+
+.md-nav .md-status-complete::after {
+  content: "✅" !important;
+}
+
