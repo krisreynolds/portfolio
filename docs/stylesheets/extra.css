@@ -1,36 +1,39 @@
 /* =========================================
-   Reset default Zensical icon
+   STATUS ICONS (emoji)
+   ========================================= */
+
+/* =========================================
+   Remove default icon completely
    ========================================= */
 .md-status::before,
 .md-status::after {
   content: none !important;
 }
 
-/* Base styling so the icon displays properly */
+/* Base element styling */
 .md-status {
   display: inline-block;
   margin-left: 0.5rem;
   font-size: 0.9rem;
-  line-height: 1;
 }
 
 /* =========================================
-   STATUS ICONS (emoji)
+   STATUS ICONS (correct selectors)
    ========================================= */
 
-.md-nav .md-status::before,.md-nav .md-incomplete::after {
+/* ✅ COMPLETE */
+.md-status.md-status-complete::after {
+  content: "✅" !important;
+}
+
+/* ⚠️ INCOMPLETE */
+.md-status.md-status-incomplete::after {
   content: "⚠️" !important;
 }
 
-.md-nav .md-status-notstarted::after {
+/* ⏳ NOT STARTED */
+.md-status.md-status-notstarted::after {
   content: "⏳" !important;
 }
 
-.md-nav .md-status::after {
-  content: none !important;
-}
-
-.md-nav .md-status-complete::after {
-  content: "✅" !important;
-}
 

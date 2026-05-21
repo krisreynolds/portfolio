@@ -1,6 +1,6 @@
 ---
 title: KSB 1.1 (S)
-icon: lucide/book-x
+icon: lucide/puzzle
 status: notstarted
 ---
 
