@@ -30,7 +30,7 @@ toggle.icon = "lucide/moon"
 toggle.name = "Switch to system preference"
 
 features = [
-    "navigation.top"
+    "navigation.top",
     "navigation.footer"
 ]
 
