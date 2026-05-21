@@ -37,9 +37,9 @@ nav = [
 ]
 
 [project.extra.status]
-notstarted: "Not yet started",
-incomplete: "Incomplete",
-complete: "Complete"
+notstarted = "Not yet started"
+incomplete = "Incomplete"
+complete = "Complete"
 
 [project.markdown_extensions.admonition]
 [project.markdown_extensions.pymdownx.details]
