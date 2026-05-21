@@ -29,6 +29,11 @@ scheme = "slate"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to system preference"
 
+features = [
+    "navigation.top"
+    "navigation.footer"
+]
+
 nav = [
   { "Home" = "index.md" },
   { "Business and Change" = [
