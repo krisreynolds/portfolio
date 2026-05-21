@@ -5,6 +5,8 @@ icon: lucide/puzzle
 
 # :lucide-puzzle: KSB 1.1 (S) :lucide-book-x:
 
+:lucide-puzzle: KSB 1.1 (S) :lucide-book-x:
+
 !!! abstract "Requirement"
 
     Design and develop technology roadmaps, implementation strategies and transformation plans focused on digital technologies to achieve improved productivity, functionality and end user experience in an area of technology specialism.
