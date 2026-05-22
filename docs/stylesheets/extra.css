@@ -11,8 +11,8 @@
    Fully justified paragraph text
    ========================================= */
 
-.md-typeset p {
-  text-align: justify;
+.md-typeset {
+  text-align: justify !important;
   hyphens: auto;
   line-height: 1.6;
 }
