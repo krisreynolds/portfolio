@@ -11,8 +11,8 @@
    Fully justified paragraph text
    ========================================= */
 
-.md-content p {
-  text-align: justify;
+.md-typeset p {
+  text-align: justify !important;
 }
 
 /* =========================================
