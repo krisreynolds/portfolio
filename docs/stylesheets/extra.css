@@ -1,5 +1,22 @@
 /* =========================================
-   Override status icons properly
+   Full width videos
+   ========================================= */
+
+.full-width-video {
+  width: 100%;
+  height: auto;
+}
+
+/* =========================================
+   Fully justified paragraph text
+   ========================================= */
+
+.justified-text p {
+  text-align: justify;
+}
+
+/* =========================================
+   KSB Status indicators
    ========================================= */
 
 /* ✅ COMPLETE */
