@@ -11,10 +11,10 @@
    Fully justified paragraph text
    ========================================= */
 
-.md-typeset {
+.md-typeset p {
   text-align: justify !important;
   hyphens: auto;
-  line-height: 1.6;
+  text-justify: inter-word;
 }
 
 /* =========================================
