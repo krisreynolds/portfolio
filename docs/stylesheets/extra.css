@@ -11,7 +11,7 @@
    Fully justified paragraph text
    ========================================= */
 
-.justified-text p {
+.md-content p {
   text-align: justify;
 }
 
