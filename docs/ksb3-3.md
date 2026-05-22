@@ -29,7 +29,7 @@ This process not only supported my own development but also contributed to the w
 Video of Skills and Knowledge Session
 
 <video controls class="full-width-video">
-  <source src="videos/demo.mp4" type="video/mp4">
+  <source src="https://krisreynolds-portfolio.s3.eu-west-1.amazonaws.com/KSB3-3.mp4" type="video/mp4">
     Your browser cannot play this file.
 </video>
 
