@@ -13,8 +13,7 @@
 
 .md-typeset p {
   text-align: justify !important;
-  hyphens: none;
-  text-justify: inter-word;
+  hyphens: none !important;
 }
 
 /* =========================================
